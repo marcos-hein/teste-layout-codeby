@@ -1,0 +1,219 @@
+@font-face {
+    font-family: Poppins;
+    src: url(./fonts/Poppins-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(./fonts/Poppins-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+    width: 100%;
+    height: 817px;
+
+    background-image: url(./images/background_box.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box img {
+    margin-top: 80px;
+}
+
+.box h1 {
+    width: 950px;
+    height: 180px;
+    margin-top: 90px;
+
+    color: white;
+
+    text-align: center;
+    font-size: 77px;
+    line-height: 90px;
+}
+
+.box button {
+    padding: 15px 105px;
+    margin: 100px;
+
+    background-color: white;
+
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.categories {
+    display: flex;
+    flex-flow: wrap;
+
+    max-width: 1560px;
+}
+
+.categories-title {
+    margin-top: 25px;
+    margin-bottom: 64px;
+    color: #2f3335;
+}
+
+.categories-title h1,
+.card-text h2 {
+    font-size: 70px;
+}
+
+.categories-title p,
+.card-text p{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.cards {
+    display: inline-flex;
+    flex-flow: wrap;
+}
+
+.card {
+    position: relative;
+    color: white;
+}
+
+.nature,
+.analysis {
+    margin-right: 40px;
+}
+
+.together {
+    margin: 40px 0;
+}
+
+.card-text {
+    position: absolute;
+}
+
+.card-text p {
+    margin-top: 5px;
+}
+
+.nature .card-text,
+.daily .card-text,
+.pictures .card-text {
+    top: 30px;
+    left: 43px;
+}
+
+.together .card-text {
+    top: 130px;
+    left: 43px;
+}
+
+.analysis .card-text {
+    top: 30px;
+    right: 43px;
+
+    text-align: end;
+}
+
+.plans {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    margin-top: 72px;
+
+    background-color: #efefee;
+}
+
+.plans-title {
+    margin-top: 72px;
+    margin-left: 180px;
+    color: #2f3335;
+}
+
+.plans-title h1 {
+    font-size: 70px;
+}
+
+.plans-title h2 {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+    margin-top: -120px;
+    margin-left: 180px;
+    margin-bottom: 180px;
+    max-width: 1560px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+
+    width: 220px;
+}
+
+.column-price {
+    background-color: #025ea1;
+}
+
+.column-price,
+.text {
+    padding: 20px;
+    color: white;
+}
+
+.text {
+    display: flex;
+    align-items: flex-end;
+    background-color: #3380c3;
+}
+
+.column-1 {
+    height: 100px;
+}
+
+.column-2 {
+    height: 170px;
+}
+
+.column-3 {
+    height: 236px;
+}
+
+.column-4 {
+    height: 303px;
+}
+
+.column-5 {
+    height: 370px;
+}
+
+.column-6 {
+    height: 436px;
+}
